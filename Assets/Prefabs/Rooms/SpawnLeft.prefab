@@ -102,11 +102,13 @@ MonoBehaviour:
   - {fileID: 8715373060919635341, guid: 1694d0932b3ac304e941818c95d9dbd8, type: 3}
   - {fileID: 3258453521567355008, guid: 2525a83f7ddd1b641b98e9e36fb1f9bc, type: 3}
   - {fileID: 8674162524851953344, guid: 96f9658897bcc484cb66f55612fc550c, type: 3}
+  - {fileID: 8674162524851953344, guid: fa2d236cb9aa83f478c8beaee78c0071, type: 3}
   TopRooms:
   - {fileID: 748361934273551443, guid: be80edae83e18374d9773c326397b0ec, type: 3}
   - {fileID: 8263328925722332587, guid: eac79065570145b43aa089519dd446e0, type: 3}
   - {fileID: 3258453521567355008, guid: 2525a83f7ddd1b641b98e9e36fb1f9bc, type: 3}
   - {fileID: 8674162524851953344, guid: 96f9658897bcc484cb66f55612fc550c, type: 3}
+  - {fileID: 8674162524851953344, guid: fa2d236cb9aa83f478c8beaee78c0071, type: 3}
   BottomRooms:
   - {fileID: 748361934273551443, guid: bdcdaec86d5e59946ace171ebd630594, type: 3}
   - {fileID: 8263328925722332587, guid: eac79065570145b43aa089519dd446e0, type: 3}
@@ -119,4 +121,6 @@ MonoBehaviour:
   - {fileID: 6490579398053559310, guid: d121fda3c9227bc449dec7a6ed354718, type: 3}
   - {fileID: 310235657191504942, guid: 87951e8718b01fa4cb9e1be0305874d4, type: 3}
   - {fileID: 7216951406307410552, guid: 488eda8bd55c8e14281eec8d81325641, type: 3}
+  - {fileID: 6146410331040077302, guid: 86ac908cd3031a149bdeb65306b939f5, type: 3}
   spawned: 0
+  max: 30

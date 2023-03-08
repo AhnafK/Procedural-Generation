@@ -3886,11 +3886,11 @@ PrefabInstance:
     m_TransformParent: {fileID: 770726198462115040}
     m_Modifications:
     - target: {fileID: 3318620284336175087, guid: fecb8bf86a8a4384fab1a9b3f9f387be, type: 3}
-      propertyPath: TopRooms.Array.data[0]
+      propertyPath: TopRooms.Array.data[1]
       value: 
       objectReference: {fileID: 8263328925722332587}
     - target: {fileID: 3318620284336175087, guid: fecb8bf86a8a4384fab1a9b3f9f387be, type: 3}
-      propertyPath: BottomRooms.Array.data[0]
+      propertyPath: BottomRooms.Array.data[1]
       value: 
       objectReference: {fileID: 8263328925722332587}
     - target: {fileID: 3448153414566539242, guid: fecb8bf86a8a4384fab1a9b3f9f387be, type: 3}
@@ -4026,11 +4026,11 @@ PrefabInstance:
     m_TransformParent: {fileID: 770726198462115040}
     m_Modifications:
     - target: {fileID: 4809545986086617574, guid: b92f1d3a8b76b5b43b8a5f18de7ec80b, type: 3}
-      propertyPath: TopRooms.Array.data[0]
+      propertyPath: TopRooms.Array.data[1]
       value: 
       objectReference: {fileID: 8263328925722332587}
     - target: {fileID: 4809545986086617574, guid: b92f1d3a8b76b5b43b8a5f18de7ec80b, type: 3}
-      propertyPath: BottomRooms.Array.data[0]
+      propertyPath: BottomRooms.Array.data[1]
       value: 
       objectReference: {fileID: 8263328925722332587}
     - target: {fileID: 5044283868535254327, guid: b92f1d3a8b76b5b43b8a5f18de7ec80b, type: 3}

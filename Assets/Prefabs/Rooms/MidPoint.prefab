@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6075850684343372919}
   - component: {fileID: 3353030035033647424}
   - component: {fileID: 6457153811019756130}
-  - component: {fileID: 3259058749194194779}
   - component: {fileID: -4337706968653260265}
   m_Layer: 0
   m_Name: MidPoint
@@ -82,43 +81,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &3259058749194194779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1928550942867120530}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b76b6fe7a53cc3c46b179f6deaabdcb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RightRooms:
-  - {fileID: 748361934273551443, guid: aa5409284dada634080f0fa3563daf99, type: 3}
-  - {fileID: 8715373060919635341, guid: 1694d0932b3ac304e941818c95d9dbd8, type: 3}
-  - {fileID: 8674162524851953344, guid: 96f9658897bcc484cb66f55612fc550c, type: 3}
-  LeftRooms:
-  - {fileID: 4956669919042057463, guid: 370aaf81136d9c44ca806a26e5a5fce3, type: 3}
-  - {fileID: 8715373060919635341, guid: 1694d0932b3ac304e941818c95d9dbd8, type: 3}
-  - {fileID: 3258453521567355008, guid: 2525a83f7ddd1b641b98e9e36fb1f9bc, type: 3}
-  - {fileID: 8674162524851953344, guid: 96f9658897bcc484cb66f55612fc550c, type: 3}
-  TopRooms:
-  - {fileID: 8263328925722332587, guid: eac79065570145b43aa089519dd446e0, type: 3}
-  - {fileID: 3258453521567355008, guid: 2525a83f7ddd1b641b98e9e36fb1f9bc, type: 3}
-  - {fileID: 8674162524851953344, guid: 96f9658897bcc484cb66f55612fc550c, type: 3}
-  BottomRooms:
-  - {fileID: 8263328925722332587, guid: eac79065570145b43aa089519dd446e0, type: 3}
-  - {fileID: 748361934273551443, guid: bdcdaec86d5e59946ace171ebd630594, type: 3}
-  - {fileID: 3258453521567355008, guid: 2525a83f7ddd1b641b98e9e36fb1f9bc, type: 3}
-  - {fileID: 8674162524851953344, guid: 96f9658897bcc484cb66f55612fc550c, type: 3}
-  interiors:
-  - {fileID: 4190720720781226165, guid: e19d0e6c36aa4894ebdbadc426155ec7, type: 3}
-  - {fileID: 6596223620045319661, guid: e2e0fdb01c16f7541ba0f699c5d28b88, type: 3}
-  - {fileID: 6393162938530979696, guid: 336f27fd1d9ed8c44b03bf7feffa6f39, type: 3}
-  - {fileID: 6490579398053559310, guid: d121fda3c9227bc449dec7a6ed354718, type: 3}
-  - {fileID: 310235657191504942, guid: 87951e8718b01fa4cb9e1be0305874d4, type: 3}
-  spawned: 0
 --- !u!114 &-4337706968653260265
 MonoBehaviour:
   m_ObjectHideFlags: 0

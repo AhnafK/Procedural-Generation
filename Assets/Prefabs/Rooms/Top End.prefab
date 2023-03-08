@@ -4382,7 +4382,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 8249927880273083672}
     m_Modifications:
     - target: {fileID: 3318620284336175087, guid: fecb8bf86a8a4384fab1a9b3f9f387be, type: 3}
-      propertyPath: BottomRooms.Array.data[1]
+      propertyPath: TopRooms.Array.data[0]
       value: 
       objectReference: {fileID: 748361934273551443}
     - target: {fileID: 3448153414566539242, guid: fecb8bf86a8a4384fab1a9b3f9f387be, type: 3}

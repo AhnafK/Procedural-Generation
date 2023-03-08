@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5383516328882064409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3448153414566539242}
+  - component: {fileID: 1109761103114000552}
+  - component: {fileID: 1600454947475025238}
+  - component: {fileID: 3318620284336175087}
+  m_Layer: 0
+  m_Name: SpawnUp
+  m_TagString: Up
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3448153414566539242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383516328882064409}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1109761103114000552
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383516328882064409}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
+--- !u!61 &1600454947475025238
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383516328882064409}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &3318620284336175087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383516328882064409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b76b6fe7a53cc3c46b179f6deaabdcb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightRooms:
+  - {fileID: 748361934273551443, guid: aa5409284dada634080f0fa3563daf99, type: 3}
+  - {fileID: 8715373060919635341, guid: 1694d0932b3ac304e941818c95d9dbd8, type: 3}
+  - {fileID: 8674162524851953344, guid: 96f9658897bcc484cb66f55612fc550c, type: 3}
+  LeftRooms:
+  - {fileID: 4956669919042057463, guid: 370aaf81136d9c44ca806a26e5a5fce3, type: 3}
+  - {fileID: 8715373060919635341, guid: 1694d0932b3ac304e941818c95d9dbd8, type: 3}
+  - {fileID: 3258453521567355008, guid: 2525a83f7ddd1b641b98e9e36fb1f9bc, type: 3}
+  - {fileID: 8674162524851953344, guid: 96f9658897bcc484cb66f55612fc550c, type: 3}
+  TopRooms:
+  - {fileID: 748361934273551443, guid: be80edae83e18374d9773c326397b0ec, type: 3}
+  - {fileID: 8263328925722332587, guid: eac79065570145b43aa089519dd446e0, type: 3}
+  - {fileID: 3258453521567355008, guid: 2525a83f7ddd1b641b98e9e36fb1f9bc, type: 3}
+  - {fileID: 8674162524851953344, guid: 96f9658897bcc484cb66f55612fc550c, type: 3}
+  BottomRooms:
+  - {fileID: 748361934273551443, guid: bdcdaec86d5e59946ace171ebd630594, type: 3}
+  - {fileID: 8263328925722332587, guid: eac79065570145b43aa089519dd446e0, type: 3}
+  - {fileID: 3258453521567355008, guid: 2525a83f7ddd1b641b98e9e36fb1f9bc, type: 3}
+  - {fileID: 8674162524851953344, guid: 96f9658897bcc484cb66f55612fc550c, type: 3}
+  interiors:
+  - {fileID: 4190720720781226165, guid: e19d0e6c36aa4894ebdbadc426155ec7, type: 3}
+  - {fileID: 6596223620045319661, guid: e2e0fdb01c16f7541ba0f699c5d28b88, type: 3}
+  - {fileID: 6393162938530979696, guid: 336f27fd1d9ed8c44b03bf7feffa6f39, type: 3}
+  - {fileID: 6490579398053559310, guid: d121fda3c9227bc449dec7a6ed354718, type: 3}
+  - {fileID: 310235657191504942, guid: 87951e8718b01fa4cb9e1be0305874d4, type: 3}
+  spawned: 0
